@@ -15,13 +15,5 @@ angular
       } else if (num == 2){
         $scope.data.outlet2 = $scope.data.outlet2 == 'on' ? 'off' : 'on';
       }
-        // $scope.data.$save().then(function(){
-        //   console.log("saved!");
-        // }).catch(function(error){
-        //   console.log('error', error);
-        // })
-
-
-
     }
   }
